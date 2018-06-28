@@ -1,0 +1,37 @@
+{
+  "nodes":[
+		{"name":"Sour Patch","group":1},
+		{"name":"Swedish Fish","group":1},
+		{"name":"Mondelez","group":1},
+
+		{"name":"Butterfingers","group":2},
+		{"name":"Crunch","group":2},
+		{"name":"Nerds","group":2},
+		{"name":"Nestle","group":2},
+
+		{"name":"Snickers","group":3},
+		{"name":"Twix","group":3},
+		{"name":"Starburst","group":3},
+		{"name":"Milky Way","group":3},
+		{"name":"M&Ms","group":3},
+		{"name":"Skittles","group":3},
+		{"name":"MARS","group":3}
+	],
+	"links":[
+		{"source":2,"target":1,"weight":5},
+		{"source":0,"target":2,"weight":5},
+
+		{"source":5,"target":6,"weight":5},
+		{"source":3,"target":6,"weight":5},
+		{"source":6,"target":4,"weight":5},
+
+		{"source":7,"target":13,"weight":5},
+		{"source":8,"target":13,"weight":5},
+		{"source":9,"target":13,"weight":5},
+		{"source":10,"target":13,"weight":5},
+		{"source":11,"target":13,"weight":5},
+		{"source":12,"target":13,"weight":5}
+
+
+	]
+}

@@ -1,0 +1,23 @@
+
+    svg {
+        background-color:red;
+        width: 100%;
+        }
+
+    .link {
+    stroke: #fff;
+    }
+
+    .node text {
+    stroke:#fff;
+    fill: aliceblue;
+    cursor: pointer;
+    font-family: fantasy;
+    padding: 10%;
+    }
+
+    .node circle{
+    stroke:#fff;
+    stroke-width:3px;
+    padding: 20px;
+    }
